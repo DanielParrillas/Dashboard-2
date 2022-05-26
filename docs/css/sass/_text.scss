@@ -1,0 +1,70 @@
+//todo ----------------  TEXT  ----------------
+
+a {
+    color: $color-dark;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 0.7rem;
+}
+
+h4 {
+    font-size: 0.5rem;
+}
+
+h5 {
+    font-size: 0.4rem;
+}
+
+small {
+    font-size: 0.6rem;
+}
+
+.profile-photo {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.text-muted {
+    color: $color-info-dark;
+}
+
+p {
+    color: $color-dark-variant;
+}
+
+b {
+    color: $color-dark;
+}
+
+//*Colors for texts
+.primary {
+    color: $color-primary;
+}
+
+.danger {
+    color: $color-danger;
+}
+
+.success {
+    color: $color-success;
+}
+
+.warning {
+    color: $color-warning;
+}
+
+.dark {
+    color: $color-dark;
+}

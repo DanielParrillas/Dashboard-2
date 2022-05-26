@@ -1,0 +1,98 @@
+//* ----------------  ASIDE ----------------
+
+aside {
+    height: 100vh;
+    //background: $color-test-1;
+
+    .top {
+        //background: $color-test-2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1rem;
+        //background: $color-white;
+    }
+
+    .close {
+        display: none;
+    }
+
+    .sidebar {
+        //background: $color-test-1;
+        display: flex;
+        flex-direction: column;
+        height: 86vh;
+        position: relative;
+        top: 1rem;
+
+        a {
+            display: flex;
+            color: $color-info-dark;
+            margin-left: 1rem;
+            gap: 0.5rem;
+            align-items: center;
+            position: relative;
+            height: 3rem;
+            transition: all 300ms ease;
+
+            &:last-child {
+                position: absolute;
+                bottom: 1rem;
+                width: 100%;
+
+                &:hover {
+                    color: $color-danger;
+                }
+            }
+
+            &:hover {
+                color: $color-primary;
+
+                span {
+                    margin-left: 0.2rem;
+                }
+            }
+
+            &.active {
+                background-color: $color-light;
+                color: $color-primary;
+                margin-left: 0;
+
+                &:before {
+                    content: "";
+                    width: 6px;
+                    height: 100%;
+                    background: $color-primary;
+                }
+
+                span {
+                    color: $color-primary;
+                    margin-left: calc(1rem - 3px);
+                }
+            }
+
+            span {
+                font-size: 1.2rem;
+                transition: all 300ms ease;
+            }
+        }
+    }
+
+    h3 {
+        font-weight: 500;
+    }
+}
+
+.logo {
+    display: flex;
+    gap: 0.8rem;
+
+    img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
