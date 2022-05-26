@@ -1,36 +1,51 @@
-//todo ----------------  VARIABLES ----------------
+// todo================  VARIABLES ================
 
-//* Colors
-$color-primary: #A1A614;
-$color-danger: #F21905;
-$color-success: #3BACD9;
-$color-warning: #ffbb55;
-$color-white: #fff;
-$color-info-dark: #84878C;
-$color-info-light: #D9D9D9;
-$color-dark: #2E3640;
-$color-light: rgba(46, 54, 64, 0.18);
-$color-primary-variant: #F27D16;
-$color-dark-variant: #677483;
-$color-background: #f6f6f9;
+// *================ ROOT VARIABLES ================
+:root {
+    // *-------- Colors Variables --------
+    --color-primary: #A1A614;
+    --color-danger: #F21905;
+    --color-success: #3BACD9;
+    --color-warning: #ffbb55;
+    --color-white: #fff;
+    --color-info-dark: #84878C;
+    --color-info-light: #D9D9D9;
+    --color-dark: #2E3640;
+    --color-light: rgba(46, 54, 64, 0.18);
+    --color-primary-variant: #F27D16;
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
 
+    // *-------- Borders Variables --------
+    --border-1: 1px solid $color-light;
+    --card-border-radius: 1rem;
+    --border-radius-1: 0.3rem;
+    --border-radius-2: 0.5rem;
+    --border-radius-3: 1rem;
+
+    // *-------- Padding & Margin Variables --------
+    --card-padding: 1.5rem;
+    --padding-1: 1rem;
+    // *-------- Others --------
+
+    --box-shadow: 0 1rem 2rem $color-light;
+
+    --transition-1: all 300ms ease;
+    // ================ END OF ROOT VARIABLES ================
+}
+
+//* ================ DARK THEME VARIABLES ================
+.dark-theme-variables {
+
+    // ================ END OF DARK THEME VARIABLES ================
+}
+
+//* ================ SASS VARIABLES ================
+
+// *-------- Colors Variables --------
 //Estos colores son usados para testear tamaños por lo tanto no se incluyen en el diseño final
 $color-test-1: pink;
 $color-test-2: coral;
-
-//* Borders
-$border-1: 1px solid $color-light;
-
-$card-border-radius: 1rem;
-$border-radius-1: 0.3rem;
-$border-radius-2: 0.5rem;
-$border-radius-3: 1rem;
-
-//*Padding & Margin
-$card-padding: 1.5rem;
-$padding-1: 1rem;
-
-//*Others
-$box-shadow: 0 1rem 2rem $color-light;
-
-$transition-1: all 300ms ease;
+$color-test-3: olive;
+$color-test-4: BlueViolet;
+// ================ END OF SASS VARIABLES ================

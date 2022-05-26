@@ -1,55 +1,16 @@
-//todo: ----------------  CONFIGs ----------------
-//* Google Font
+// todo================  GENERAL IMPORTS ================
+
+// *-------- Google Fonts --------
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-//* Local
+
+// *-------- Locals --------
 @import "sass/config";
 
-//todo: ---------------- GENERALS ----------------
-* {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    appearance: 0;
-    border: none;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
+// todo================  GENERAL STYLES ================
 
-html {
-    //font-size: 30px;
-}
 
-body {
-    width: 100vw;
-    height: 100vh;
-    font-family: poppins, sans-serif;
-    font-size: 0.88rem;
-    background: $color-background;
-    user-select: none;
-    overflow-x: hidden;
-    color: $color-dark;
-}
 
-.container {
-    display: grid;
-    width: 96%;
-    margin: 0 auto;
-    //background: $color-test-1;
-    gap: 1.5rem;
-    grid-template-columns: 10rem auto 15rem; //aside main rigth section
-}
+// todo================ IMPORTS ================
 
-img {
-    display: block;
-    width: 100%;
-}
-
-//TODO: ---------------- IMPORTS ----------------
-@import "sass/aside";
-@import "sass/main";
-@import "sass/right";
-@import "sass/text";
-@import "sass/form";
-@import "sass/mobile";
-@import "sass/utilities";
+// *-------- Locals --------
+@import 'sass/nav';
