@@ -323,7 +323,7 @@ main table:hover {
 main table tbody td {
   height: 2.8rem;
   border-bottom: 1px solid rgba(46, 54, 64, 0.18);
-  color: #BDBDBF;
+  color: #677483;
 }
 
 main table tbody tr:last-child td {
@@ -471,7 +471,7 @@ small {
 }
 
 p {
-  color: #BDBDBF;
+  color: #677483;
 }
 
 b {
