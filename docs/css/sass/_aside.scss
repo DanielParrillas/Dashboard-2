@@ -1,1 +1,49 @@
 // todo================  ASIDE ================
+
+aside {
+    //background-color: $color-test-3;
+    height: calc(100vh - var(--nav-h));
+    width: var(--aside-w);
+    position: fixed;
+    top: var(--nav-h);
+    left: 0;
+    border-right: var(--border-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .top {
+        display: none;
+        padding-left: var(--space-m);
+        height: var(--nav-h);
+    }
+
+    .sidebar,
+    .botton {
+        //background-color: $color-test-1;
+        display: flex;
+        flex-direction: column;
+        transition: all 3s ease;
+
+        a {
+            //background-color: $color-test-3;
+            display: flex;
+            color: var(--color-info-dark);
+            margin-left: var(--space-xxl);
+            gap: var(--space-m);
+            height: var(--size-g);
+            align-items: center;
+            transition: all 3s ease; //--transition-1: all 300ms ease;
+
+            &:hover {
+                color: var(--color-primary);
+
+                span {
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+
+    .botton {}
+}

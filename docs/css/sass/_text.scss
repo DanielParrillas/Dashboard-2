@@ -1,70 +1,70 @@
-//todo ----------------  TEXT  ----------------
+// todo================  TEXT STYLES ================
 
-a {
-    color: $color-dark;
-}
-
+// *-------- General texts --------
 h1 {
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: var(--size-xxl);
 }
 
 h2 {
-    font-size: 1rem;
+
+    font-size: var(--size-xl);
 }
 
 h3 {
-    font-size: 0.7rem;
+    font-size: var(--size-l);
 }
 
 h4 {
-    font-size: 0.5rem;
+
+    font-size: var(--size-m);
+    font-weight: 300;
 }
 
-h5 {
-    font-size: 0.4rem;
+h5,
+p {
+
+    font-size: var(--size-s);
 }
 
 small {
-    font-size: 0.6rem;
+
+    font-size: var(--size-xs);
 }
 
-.profile-photo {
-    width: 2.8rem;
-    height: 2.8rem;
-    border-radius: 50%;
-    overflow: hidden;
+// *-------- Color for the texts --------
+a {
+    color: var(--color-dark);
 }
 
 .text-muted {
-    color: $color-info-dark;
+    color: var(--color-info-dark);
 }
 
 p {
-    color: $color-dark-variant;
+    color: var(--color-dark-variant);
 }
 
 b {
-    color: $color-dark;
+    color: var(--color-dark);
 }
 
-//*Colors for texts
 .primary {
-    color: $color-primary;
+    color: var(--color-primary);
 }
 
 .danger {
-    color: $color-danger;
+    color: var(--color-danger);
 }
 
 .success {
-    color: $color-success;
+    color: var(--color-success);
 }
 
 .warning {
-    color: $color-warning;
+    color: var(--color-warning);
 }
 
 .dark {
-    color: $color-dark;
+    color: var(--color-dark);
 }

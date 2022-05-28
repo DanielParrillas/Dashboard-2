@@ -1,0 +1,27 @@
+// todo================  IMAGES STYLES ================
+
+// *-------- General Styles --------
+img {
+    display: block;
+    width: 100%;
+}
+
+// *-------- Others Styles --------
+.profile-photo {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+
+    img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}

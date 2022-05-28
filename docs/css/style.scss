@@ -8,9 +8,43 @@
 
 // todo================  GENERAL STYLES ================
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
+}
+
+html {
+    //font-size: 16px;
+}
+
+body {
+    //background-color: $color-test-1;
+    width: 100vw;
+    height: 100vh;
+    font-family: poppins, sans-serif;
+    overflow-x: hidden;
+    font-size: 1rem;
+    color: var(--color-dark);
+}
+
+.container {
+    //background-color: $color-test-2;
+    position: relative;
+    height: 100%;
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+}
 
 // todo================ IMPORTS ================
 
 // *-------- Locals --------
+@import 'sass/text';
+@import 'sass/img';
 @import 'sass/nav';
+@import 'sass/aside';
+@import 'sass/main';

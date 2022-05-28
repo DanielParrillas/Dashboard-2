@@ -1,1 +1,43 @@
 // todo================  NAVBAR ================
+
+nav {
+    background-color: var(--color-white);
+    //background-color: $color-test-1;
+    display: flex;
+    align-items: center;
+    height: var(--nav-h);
+    justify-content: space-between;
+    border: var(--border-1);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    // *================ LEFT ================
+    .left {
+        padding-left: var(--space-m);
+    }
+
+    // ================ END OF LEFT ================
+    // *================ RIGHT ================
+    .right {
+        display: flex;
+        gap: var(--space-l);
+        align-items: center;
+        padding-right: var(--space-m);
+
+        .profile {
+            display: flex;
+            gap: var(--space-xs);
+            text-align: right;
+
+            .info {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+    // ================ END OF RIGHT ================
+
+}
